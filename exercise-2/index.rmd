@@ -1,4 +1,7 @@
+install.packages("plotly")
+library('dplyr')
 library('plotly')
+
 ice.cream <- c('vanilla', 'chocolate', 'green tea', 'strawberry')
 price <- c(3.5, 5.2, 6.0, 1.7)
 calories <- c(200, 342, 171, 547)
